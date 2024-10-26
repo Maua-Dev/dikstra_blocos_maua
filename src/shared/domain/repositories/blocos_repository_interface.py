@@ -4,7 +4,7 @@ from typing import Dict
 from src.shared.domain.entities.user import User
 
 
-class IBlocosRepo(ABC):
+class IBlocosRepository(ABC):
 
     @abstractmethod
     def get_matrix(self) -> Dict[str, Dict[str, int]]:

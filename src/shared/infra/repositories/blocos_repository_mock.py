@@ -1,9 +1,9 @@
 from typing import Dict
 
-from src.shared.domain.repositories.blocos_repository_interface import IBlocosRepo
+from src.shared.domain.repositories.blocos_repository_interface import IBlocosRepository
 
 
-class BlocosRepositoryMock(IBlocosRepo):
+class BlocosRepositoryMock(IBlocosRepository):
     __matrix: Dict[str, Dict[str, int]]
 
     def __init__(self):

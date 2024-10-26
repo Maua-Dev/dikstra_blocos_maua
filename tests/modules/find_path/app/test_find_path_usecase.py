@@ -12,6 +12,6 @@ class Test_FindPathUsecase:
         usecase = FindPathUsecase(repo)
 
         response = usecase("R17", "R2")
-        assert response == []
+        assert response == ['R17', 'R18', 'R19', 'Portaria', 'R1', 'R2']
 
 
