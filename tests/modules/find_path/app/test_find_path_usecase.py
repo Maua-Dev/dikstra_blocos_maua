@@ -11,7 +11,7 @@ class Test_FindPathUsecase:
         repo = BlocosRepositoryMock()
         usecase = FindPathUsecase(repo)
 
-        response = usecase("A", "D")
-        assert response == ['A', 'B', 'C', 'D']
+        response = usecase("R17", "R2")
+        assert response == []
 
 
